@@ -1,0 +1,10 @@
+POST http://127.0.0.1:3333/alcaldia/registro-usuarios 
+Content-Type: application/json
+
+{
+    "codigo_usuario": 10001,
+    "nombre_usuario": "Usuario Pruebas",
+    "contrasena": "abc123",
+    "email": "Usuario@mail.com",
+    "telefono": "3012024004"
+}
